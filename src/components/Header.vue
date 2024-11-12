@@ -6,7 +6,7 @@
     >
       <div>
         <p
-          class="font-cormorant font-medium md:text-[128px] text-[64px] md:text-left text-center  text-primary"
+          class="font-cormorant font-medium md:text-[128px] text-[54px] md:text-left text-center  text-primary"
         >
           Maria & Vlad
         </p>
@@ -30,7 +30,7 @@
             >
               {{ item.num }}
             </p>
-            <p class="font-khula text-primary text-3xl md:text-4xl">
+            <p class="font-khula text-primary text-[26px] md:text-4xl">
               {{ item.text }}
             </p>
           </div>

@@ -8,7 +8,7 @@
         RSVP
       </p>
       <div class="mt-[64px] md:flex items-center justify-between">
-        <div class="p-7 bg-white w-[402px]">
+        <div class="p-7 bg-white md:w-[402px]">
           <p
             class="text-4xl text-primary font-semibold text-center mb-4 font-cormorant"
           >
@@ -28,7 +28,7 @@
           class="md:w-1/4 w-4/5 mx-auto py-[36px]"
           alt="Image"
         />
-        <div class="p-7 bg-white w-[402px]">
+        <div class="p-7 bg-white md:w-[402px]">
           <p
             class="text-4xl text-primary font-semibold text-center mb-4 font-cormorant"
           >
