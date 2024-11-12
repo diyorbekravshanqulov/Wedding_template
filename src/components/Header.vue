@@ -26,11 +26,11 @@
             }"
           >
             <p
-              class="font-khula text-primary text-5xl md:text-[64px] md:text-left text-center"
+              class="font-khula text-primary text-3xl md:text-[64px] md:text-left text-center"
             >
               {{ item.num }}
             </p>
-            <p class="font-khula text-primary text-4xl md:text-4xl">
+            <p class="font-khula text-primary text-3xl md:text-4xl">
               {{ item.text }}
             </p>
           </div>
