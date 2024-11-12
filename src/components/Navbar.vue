@@ -3,10 +3,10 @@
     class="fixed z-20 top-0 w-full left-0"
     :class="isScrolled ? 'backdrop-blur-lg bg-white/30' : 'bg-transparent'"
   >
-    <div class="container md:py-[42px] py-8 md:block flex items-center justify-center">
+    <div class="container md:py-[42px] py-6 md:block flex items-center justify-center">
       <div class="flex items-center gap-[62px]">
         <span
-          class="font-cormorant font-medium text-3xl cursor-pointer"
+          class="font-cormorant font-medium md:text-3xl text-2xl cursor-pointer"
           v-for="(item, index) in texts"
           :key="index"
         >

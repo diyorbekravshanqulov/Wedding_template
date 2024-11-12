@@ -8,7 +8,7 @@
       >
         <Icon
           icon="teenyicons:top-right-outline"
-          class="rotate-45 text-4xl text-primary"
+          class="rotate-45 md:text-4xl text-3xl text-primary"
         />
       </button>
     </div>
