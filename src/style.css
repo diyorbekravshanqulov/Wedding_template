@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Yaldevi:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Yaldevi:wght@200..700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Khula:wght@300;400;600;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Define the scrollbar style */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Define the thumb style */
+body::-webkit-scrollbar-thumb {
+  background-color: #2b0047; /* Change to the desired color if needed */
+  border-radius: 5px;
+  border: 0.5px solid #ccc; /* Optional border color */
+}
+
+/* Define the track style */
+body::-webkit-scrollbar-track {
+  background-color: #ffffff; /* Set to white */
+  border: 1px solid transparent; /* Optional border */
+}
+
+/* Define the button style */
+body::-webkit-scrollbar-button {
+  display: none;
+  background-color: #2b0047; /* Optional button color */
+}
+
+
+input,
+textarea {
+  outline: none !important;
+}
+
+button {
+  cursor: pointer;
+}
